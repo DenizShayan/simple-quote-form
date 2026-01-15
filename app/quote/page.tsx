@@ -45,7 +45,7 @@ export default function QuotePage() {
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               className="mt-1 w-full rounded-lg border border-zinc-300 px-3 py-2 outline-none focus:ring-2"
-              placeholder="e.g., Deniz Shayan"
+              placeholder="e.g., name family"
               required
             />
           </div>
